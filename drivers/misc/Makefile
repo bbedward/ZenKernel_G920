@@ -80,3 +80,4 @@ obj-$(CONFIG_DM_VERITY)		+= dmverity_query.o
 # IrDA FPGA
 obj-$(CONFIG_SEC_FPGA_ICE40XX)  += ice40xx.o
 
+obj-$(CONFIG_ZEN_INFO_SYFS_INTERFACE) += zen_info_sysfs.o
