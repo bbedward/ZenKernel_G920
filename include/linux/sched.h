@@ -894,6 +894,8 @@ void free_sched_domains(cpumask_var_t doms[], unsigned int ndoms);
 
 bool cpus_share_cache(int this_cpu, int that_cpu);
 
+extern void wake_up_if_idle(int cpu);
+
 #ifdef CONFIG_SCHED_HMP
 struct hmp_domain {
 	struct cpumask cpus;
